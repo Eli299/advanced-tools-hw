@@ -91,3 +91,14 @@ p {
   text-decoration: underline;
   cursor: pointer;
 }
+@media (max-width:576px) {
+
+  body {
+    text-align: center;
+  }
+.btn {
+  display: block;
+  text-align: center;
+  margin: 0 20px;
+}
+}
